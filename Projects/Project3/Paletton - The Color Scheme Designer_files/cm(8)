@@ -1,9 +1,0 @@
-<html>
-<head><title>Pixels</title></head>
-<body>
-<script>if("browsingTopics"in document&&document.featurePolicy.allowsFeature("browsing-topics"))document.browsingTopics()</script>
-
-<img src="https://usr.undertone.com/userPixel/sync?partnerId=39&uid=648aeb7c-aad1-468a-b312-02b41ca1a87b">
-
-</body>
-</html>
