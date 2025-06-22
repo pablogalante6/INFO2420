@@ -1,74 +1,91 @@
-<! DOCTYPE html>
-<!--main index.html file--!>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-	<title>Home Page for Pablo Galante</title>
-	<style>
-		body {background-image
-			font-family: Arial, sans-serif;
-			background-color: #f5f5f5;
-			color: #333;
-			margin: 0;
-			padding: 20px;
-		}
-		h1 {
-			color: #2c3e50;
-			border-bottom: 2px solid #ccc;
-			padding-bottom: 10px;
-		}
-		h2 {
-			color: #34495e;
-			margin-top: 30px;
-		}
-		p {
-			font-size: 1.1em;
-			margin: 10px 0;
-		}
-		a {
-			color: #2980b9;
-			text-decoration: none;
-			margin-right: 10px;
-		}
-		a:hover {
-			text-decoration: underline;
-		}
-		hr {
-			border: none;
-			border-top: 1px solid #ccc;
-			margin: 20px 0;
-		}
-	</style>
+<meta charset="UTF-8">
+<title>HTML Practice 6A</title>
 </head>
+
+<style>
+
+td, th {
+  border: 1px solid gray;
+}
+
+</style>
+
 <body>
-	<h1>Home Page for Pablo Galante</h1>
-	<hr>
-	<h2>Projects</h2>
-	<p>
-		<a href="project1.html">Project 1</a> |
-		<a href="Projects/Project2/AboutUs.html">Project 2 (About Us)</a> |
-		<a href="Projects/Project2/Tributes.html">Project 2 (Tributes)</a> |
-		<a href="Projects/Project3/AboutUs.html">Project 3 (About Us)</a> |
-		<a href="Projects/Project3/Tributes.html">Project 3 (Tributes)</a> |
-	</p>
-	<hr>
-	<h2>Practice Assignments</h2>
-	<p>
-		<a href="Practices/HTMLPractice1/index.html">Practice 1</a> |
-		<a href="Practices/HTMLPractice1A/index.html">Practice 1A</a> |
-		<a href="Practices/HTMLPractice2/cactus.html">Practice 2</a> |
-		<a href="Practices/HTMLPractice3/index.html">Practice 3</a> |
-		<a href="Practices/HTMLPractice3B/index.html">Practice 3B</a> |
-		<a href="Practices/HTMLPractice4A/index.html">Practice 4A</a> |
-		<a href="Practices/HTMLPractice4B/CSS3Fonts/CSS3Fonts.html">Practice 4B</a> |
-		<a href="Practices/HTMLPractice5/index.html">Practice 5</a> |
-		<a href="Practices/HTMLPractice5B/bistro.html">Practice 5B</a> |
-	</p>
-	<hr>
-	<h2>Book Assignments</h2>
-	<p>...</p>
+<table>
+	<tbody>
+		<tr>
+			<th>Album</th>
+			<th>Year</th>
+		</tr>
+		<tr>
+			<th>Rubber Soul</th>
+			<th>1965</th>
+		</tr>
+		<tr>
+			<th>Revolver</th>
+			<th>1966</th>
+		</tr>
+		<tr>
+			<th>Sgt. Pepper's</th>
+			<th>1967</th>
+		</tr>
+		<tr>
+			<th>The White Album</th>
+			<th>1968</th>
+		</tr>
+		<tr>
+			<th>Abbey Road</th>
+			<th>1969</th>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th>7:00pm</th>
+			<th>7:30pm</th>
+			<th>8:00pm</th>
+		</tr>
+		<tr>
+			<td colspan="3">The Sunday Night Movie</td>
+		</tr>
+		<tr>
+			<td>Perry Mason</td>
+			<td>Candid Camera</td>
+			<td>What's My line?</td>
+		</tr>
+		<tr>
+			<td>Bonza</td>
+			<td colspan="2">The Wackiest Ship in the Army</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table>
+	<tbody>
+		<tr>
+			<td>apples</td>
+			<td rowspan="3">oranges</td>
+			<td>pears</td>
+		</tr>
+		<tr>
+			<td>bananas</td>
+			<td rowspan="2">pineapple</td>
+		</tr>
+		<tr>
+			<td>lychees</td>
+		</tr>
+	</tbody>
+</table>
+
 </body>
 </html>
-
-
-
 
