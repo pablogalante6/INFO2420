@@ -9,8 +9,9 @@
 
 .flashclass{ /*sample CSS class added to image slideshow container*/
 	height: 200px;
-	width: 200px; /*a width should be defined for transition to work*/
-	border: 5px solid orange;
+	width: 120px; /*a width should be defined for transition to work*/
+	border: 5px solid blue;
+	text-align:center;
 	padding: 5px;
 
 }
@@ -41,10 +42,10 @@ var flashyshow=new flashyslideshow({ //create instance of slideshow
 	wrapperid: "myslideshow", //unique ID for this slideshow
 	wrapperclass: "flashclass", //desired CSS class for this slideshow
 	imagearray: [
-		["Images/Slideshow/autumn.jpg","http://www.javascriptkit.com/script/script2/transitionshow.shtml", "_blank", "Ah, the cool breeze of autumn."],
-		["Images/Slideshow/spring.jpg", "", "", "Flowers spring back to life in the Spring."],
-		["Images/Slideshow/winter.jpg", "", "", "Winter is nice, as long as there's snow right?"],
-		["Images/Slideshow/summer.jpg", "", "", "Such a nice Summer getaway"]
+		["Images/Thumbnails/HamsterSm.jpg","http://www.javascriptkit.com/script/script2/transitionshow.shtml", "_blank", "Fuzzy thinking"],
+		["Images/Thumbnails/CoupleSailingSm.jpg", "", "", "Newlyweds Sailing"],
+		["Images/Thumbnails/PigSm.jpg", "", "", "Boy and His Pig"],
+		["Images/Thumbnails/SaladSm.jpg", "", "", "Yummy Salad"]
 	],
 	pause: 2000, //pause between content change (millisec)
 	transduration: 1000 //duration of transition (affects only IE users)
