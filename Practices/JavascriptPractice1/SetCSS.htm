@@ -28,6 +28,24 @@
 	the textAlign should be 'center', and the fontSize should be '24px'.
 	Else just set the color to be 'pink', the textDecoration to be 'none', the fontSize to be '44px', and	the textAlign to be 'left'.
 	************************************************************************************************/
+	if (code === 'blue') {
+		myHeading.style.color = 'white';
+		myHeading.style.textDecoration = 'none';
+		myHeading.style.textAlign = 'right';
+		myHeading.style.fontSize = '30px';
+	} else if (code === 'red') {
+		myHeading.style.color = 'black';
+		myHeading.style.textDecoration = 'underline';
+		myHeading.style.textAlign = 'center';
+		myHeading.style.fontSize = '24px';
+	} else if (code === 'yellow') {
+		myHeading.style.color = 'red';
+		myHeading.style.textDecoration = 'underline';
+		myHeading.style.textAlign = 'left';
+		myHeading.style.fontSize = '24px';
+	} else {
+		myHeading.style.color = 'pink';
+	}
 
 	}
 
