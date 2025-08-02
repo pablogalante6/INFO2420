@@ -36,8 +36,9 @@ nav {
 
 article {
   float: left;
-  width: 110px;
-  padding-left: 10px;
+  width: 600px;
+  padding: 5px 10px;
+  text-align: center;
 }
 
 footer {
