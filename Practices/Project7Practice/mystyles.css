@@ -1,0 +1,76 @@
+/* CSS Document */
+
+
+body {
+  margin: 0;
+  background-image: url('Images/background.gif');
+  font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+}
+
+header {
+  width: 760px;
+  height: 150px;
+  background-color: #CCCCCC;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom: medium dashed navy;
+  margin: auto;
+}
+
+section {
+  width: 760px;
+  background-image: url('Images/inner_background.gif');
+  background-repeat: repeat-y;
+  overflow: hidden;
+  border-right: medium dashed navy;
+  border-left: medium dashed navy;
+  margin: auto;
+}
+
+nav {
+  float: left;
+  width: 110px;
+  padding-left: 10px;
+}
+
+article {
+  float: left;
+  width: 620px;
+}
+
+footer {
+  width: 760px;
+  height: 70px;
+  background-color: #CCCCCC;
+  text-align: center;
+  border: medium dashed navy;
+  padding: 10px;
+  margin: auto;
+}
+
+.logoleft {
+  float: left;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+
+nav a {
+  border: 2px inset #CCCCCC;
+  background-color: maroon;
+  line-height: 250%;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+nav a:hover {
+  color: yellow;
+  border: 2px outset #CCCCCC;
+  background-color: #800000;
+}
