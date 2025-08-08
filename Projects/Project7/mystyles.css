@@ -1,0 +1,35 @@
+<style type="text/css">
+    #thumbs, #image {
+        width: 700px;
+        text-align: center;
+        margin: 0 auto;
+        color: #000;
+        padding: 5px;
+    }
+
+	#thumbs {
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+		gap: 10px;
+		flex-wrap: nowrap;
+	}
+
+	#thumbs img {
+		border: solid 1px #000;
+		margin: 0;
+		width: 200px;
+		height: 250px;
+		object-fit: cover;
+		cursor: pointer;
+	}
+
+
+    #image {
+        height: 400px;
+    }
+
+    .instructions {
+        font-style: italic;
+    }
+</style>
