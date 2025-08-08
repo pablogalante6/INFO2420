@@ -1,86 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Utah Native Cooking</title>
-<link rel="stylesheet" href="mystyles.css">
-<script type="text/javascript" src="myscripts.js"></script>
+  <meta charset="UTF-8">
+  <title>Utah Native Cooking</title>
+  <link rel="stylesheet" href="mystyles.css">
+  <script type="text/javascript" src="myscripts.js" defer></script>
+	<link rel="stylesheet" href="mystyles.css">
+
 </head>
 
 <body onload="preloadImages()">
-	
-   <div class="container">
-	   
+
+  <div class="container">
+
 	<header>
-     <a href="logo.html" onMouseOver="document.logo.src=logo2.src;"
-	onMouseOut="document.logo.src=logo1.src;">
+	  <a href="logo.html">
+		<img id="logo" src="Images/Logo.png" width="133" height="126" alt="logo" class="logoleft" />
+	  </a>
 
-	<img src="Images/logo1.jpg" width="133" height="126" 
-	name="logo" alt="logo" class="logoleft"/>
+	  <img src="Images/Banner.png" width="484" height="125" alt="banner" class="banner-border" />
 
-	</a>
-	
-		<img src="Images/Banner.png" width="484" height="125" alt="banner" class="banner-border"/>
-	
-	<nav>
-		<a href="home.htm">&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;</a> <br>
-		<a href="aboutus.htm">&nbsp;About Us&nbsp;</a> <br>
-		<a href="tributes.htm">&nbsp;Tributes&nbsp;&nbsp;</a> <br>
-		<a href="survey.htm">Survey</a> <br> 
-	  	<a href="favorites.htm">&nbsp;Favorites&nbsp;&nbsp;&nbsp;&nbsp;</a> <br>
-	</nav>
-	   
-	   </header>
-	
-<section>
-			
-	<article>
-		
-		<h1>We Are Utah Native Cooking</h1>
-		<p>Welcome to Utah Native Cooking 
-Everyone loves food, and here we can explore a lot of recipes native to Utah!</p>
-		
-		<h2>Gallery</h2>
-		
-		<div id="thumbs">
-		<img src="Images/Thumbnails/Image1Sm.jpg" alt="Chef" onmouseover="swapImage(0);" />
-		<img src="Images/Thumbnails/Image2Sm.jpg" alt="Woman Eating" onmouseover="swapImage(1);" />
-		<img src="Images/Thumbnails/Image3Sm.jpg" alt="Table" onmouseover="swapImage(2);" />
-		<img src="Images/Thumbnails/Image4Sm.jpg" alt="Wine Glass" onmouseover="swapImage(3);" />
-		
-</div>
+	  <nav>
+		<a href="home.htm">Home</a>
+		<a href="aboutus.htm">About Us</a>
+		<a href="tributes.htm">Tributes</a>
+		<a href="survey.htm">Survey</a>
+		<a href="favorites.htm">Favorites</a>
+	  </nav>
+	</header>
 
-	<div id="image">
 
-		<img id="theImage" src="Images/Fullsize/Chef4Lg.jpg" alt="Chef" />
-		<h3 id="bottomText">Chef</h3>
-	</div>
-		
-	<h2>Tributes</h2>
-			
-	<img src="Images/GrillSmall.jpg" class="imageright" alt="Grill">
-		
-	<p>
-		My name is Pablo Galante. I live in northern Utah and I enjoy bird watching. Every year I look forward to finding a nature calendar to put in my office. Because I work in the city, I enjoy being reminded about the beauty of the state of Utah. <br><br>
-		Thanks for brightening up my workplace, <br><br>
-		Pablo Galante
-	</p>
-		
-	</article>
-		
-</section>
-	
+    <section>
+		<article>
+
+		  <h1>Welcome to Utah Native Cooking</h1>
+		  <p>
+			Everyone loves food, and here you can explore delicious recipes native to Utah!
+			From hearty stews to pioneer-style desserts, we celebrate the rich culinary history of our state.
+		  </p>
+
+		  <h2>Gallery</h2>
+		  <div id="thumbs">
+			<img src="Images/Thumbnails/Chef4sm.jpg" alt="Chef" onmouseover="swapImage(0);" />
+			<img src="Images/Thumbnails/EatingSmall.jpg" alt="Woman Eating" onmouseover="swapImage(1);" />
+			<img src="Images/Thumbnails/tableset.jpg" alt="Table" onmouseover="swapImage(2);" />
+			<img src="Images/Thumbnails/WineGlassSm.jpg" alt="Wine Glass" onmouseover="swapImage(3);" />
+		  </div>
+
+		  <div id="image">
+			<img id="theImage" src="Images/Fullsize/Chef4Lg.jpg" alt="Chef" />
+			<h3 id="bottomText">Chef</h3>
+		  </div>
+
+		  <h2>Mini Tribute</h2>
+		  <div class="mini-tribute">
+			<img src="Images/GrillSmall.jpg" alt="Grill Tribute" class="mini-tribute-img" />
+			<p>
+			  My name is Pablo Galante. I live in northern Utah and I enjoy bird watching and outdoor cooking.
+			  Being surrounded by the beauty of this state inspires my recipes and respect for local tradition.
+			  <a href="tributes.htm">more &gt;&gt;</a>
+			</p>
+		  </div>
+
+		</article>
+
+    </section>
+
 	<footer>
-
-			<p class="footer-text">
-			Contact: <a href="mailto:10960431@uvu.edu">Pablo Galante - 10736051@uvu.edu</a>
-			<br><br>
-			This web site has been created solely for educational purposes.
-		</p>
-		
+	  <div class="footer-content">
+		<p><strong>Contact:</strong> <a href="mailto:10960431@uvu.edu">Pablo Galante - 10960431@uvu.edu</a></p>
+		<p>This web site has been created solely for educational purposes.</p>
+	  </div>
 	</footer>
-	
-   </div>
-	
+
+  </div>
+
 </body>
 </html>
