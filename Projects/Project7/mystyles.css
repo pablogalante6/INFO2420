@@ -1,35 +1,89 @@
-<style type="text/css">
-    #thumbs, #image {
-        width: 700px;
-        text-align: center;
-        margin: 0 auto;
-        color: #000;
-        padding: 5px;
-    }
+body{
+	background-color: #D6F2AF;
+	font-size: medium;
+}
 
-	#thumbs {
-		margin-top: 10px;
-		display: flex;
-		justify-content: center;
-		gap: 10px;
-		flex-wrap: nowrap;
-	}
-
-	#thumbs img {
-		border: solid 1px #000;
-		margin: 0;
-		width: 200px;
-		height: 250px;
-		object-fit: cover;
-		cursor: pointer;
-	}
+h1{
+	color: #5C0E00;
+}
 
 
-    #image {
-        height: 400px;
-    }
+h2{
+	color: #962B17;
+}
 
-    .instructions {
-        font-style: italic;
-    }
-</style>
+h3{
+	color: #962B17;
+}
+
+h4{
+	color: #962B17;
+}
+
+blockquote{
+	color: #4E0022;
+}
+
+li{
+	color: #004317;
+}
+
+a:link{
+	color: #004317;
+}
+a:visited{
+	color: #FA9E8D;
+}
+a:hover{
+	color: #409B5F;
+}
+
+p{
+	color: #5C0E00;
+}
+
+.thumbnailleft{
+	float: left;
+	padding-right: 20px;
+}
+
+.thumbnailright{
+	float: right;
+	padding-left: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: medium;
+	color: #5C0E00;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 1em;
+}
+caption {
+	caption-side: top;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 10px;
+	color: #4E0022;
+	background-color: #004317;
+	border-radius: 12px;
+}
+
+th {
+	background-color: #004317;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 10px;
+}
+
+td {
+	background-color: #D6F2AF;
+	border: 1px solid #004317;
+	padding: 10px;
+	vertical-align: top;
+}
+
+tr:nth-child(even) td {
+	background-color: #9AD4AE;
+}
